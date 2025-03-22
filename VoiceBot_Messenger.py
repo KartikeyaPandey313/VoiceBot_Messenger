@@ -18,7 +18,7 @@ if __name__ == "__main__":
     speak('Do you want me send the message multiple time?')
     # Note: The same listen() function is used even though it expects a specific command format.
     # For more robust behavior, consider creating a separate function for yes/no responses.
-    yes_no = listen()
+    yes_no = input("Y/n: ")
 
     # If the recognized response contains "yes"
     if 'yes' in yes_no:
