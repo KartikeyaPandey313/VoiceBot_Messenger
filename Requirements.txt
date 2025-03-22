@@ -1,0 +1,4 @@
+pyttsx3~=2.98
+SpeechRecognition~=3.14.1
+AppOpener~=1.7
+pyautogui~=0.9.54
