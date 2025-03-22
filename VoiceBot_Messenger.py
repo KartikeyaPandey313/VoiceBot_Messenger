@@ -1,13 +1,3 @@
-"""
-VoiceBot Messenger
-------------------
-A Python-based tool to send WhatsApp messages using voice commands.
-Features:
-    - Text-to-Speech (pyttsx3)
-    - Speech Recognition (speech_recognition)
-    - GUI Automation (pyautogui, AppOpener)
-"""
-
 from AppOpener import open as openApp  # For opening applications (like WhatsApp)
 import pyautogui  # For automating keyboard and mouse actions
 import time  # For adding delays when needed
