@@ -21,7 +21,7 @@ if __name__ == "__main__":
     yes_no = input("Y/n: ")
 
     # If the recognized response contains "yes"
-    if 'yes' in yes_no:
+    if 'y' in yes_no:
         # Ask the user for the number of times to send the message
         speak('How many times?')
         # Use keyboard input for the number of times since speaking numbers reliably is challenging
